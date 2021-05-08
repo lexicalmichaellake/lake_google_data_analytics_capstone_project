@@ -64,7 +64,7 @@ Super Mario Bros. 2
 
 Monster Boy in Cursed Kingdom
 
-"so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending but there's probably a moment here"
+> "so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending but there's probably a moment here"
 
 
 ### Supporting visualizations and key findings
