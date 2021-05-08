@@ -49,6 +49,29 @@ I then opened up all the text files in a software tool which I am developing wit
 
 I compared the frequencies of lexical bundles that occur in both the Brown Corpus and the SGDQ2019 Corpus. I ran a histogram inspection and found that the data were not normally distributed. Thus, the appropriate comparison test is a Wilcoxon Sign Ranked test since the data were not normally distributed.
 
+"8_1.txt
+ Legend of Zelda The Minish Cap
+you don't know this at the time that you normally do this portal but it actually opens a portal to a much later area of the game which *you're not supposed to* have access to at this point this whole what later on in the run let us skip basically directly to the second-to-last engine"
+
+
+"18_4.txt Fire Emblem Fates
+
+"*that's never happened before* so while I do this chapter which should take like 30 seconds we can read off and not a few donations"
+"
+
+
+Super Mario Bros. 2
+4_1.txt
+
+"nice so normally what you do there is climb to *the top of* that screen and bring a key *all the way* down so that *saves a lot of time* "
+
+4_2.txt
+
+Monster Boy in Cursed Kingdom
+
+"so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly *she's gonna* try and hit the torches out of order of what the game is intending but there's probably a moment here"
+
+
 5. Supporting visualizations and key findings
 
 ![Boxplot of mean formualicity scores in both corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/all_formualicity_boxplot.png "Boxplot of mean formualicity scores in both corpora").
