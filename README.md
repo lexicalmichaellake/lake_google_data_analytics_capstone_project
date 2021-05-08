@@ -33,14 +33,14 @@ I have chosen the transcripts of the proceedings at this event as an understudie
 
 ### Data cleaning & Manipulation
 
-To get the Brown Corpus, I downloaded the first version on [Robert Bley-Vroman's website](http://www.sls.hawaii.edu/bley-vroman/brown_corpus.html). I noticed that documents tented to change at each instance of a newline followed by a #. Thus, I used a terminal script to split the file into separate pieces. Doing so allows balanced measurements to be obtained from individual text files.
+To get the Brown Corpus, I downloaded the first version on [Robert Bley-Vroman's website](http://www.sls.hawaii.edu/bley-vroman/brown_corpus.html). I noticed that documents tended to change at each instance of a newline followed by a #. Thus, I used a terminal script to split the file into separate pieces. Doing so allows balanced measurements to be obtained from individual text files.
 
 Here is the script:
 `csplit -z * /\n\n#/ '{*}'`
 
 To get the SGDQ2019 corpus, I obtained a list of URLs for every recording. I then found [some Python code that uses the pytube library](https://www.geeksforgeeks.org/python-downloading-captions-from-youtube/) on GeeksforGeeks. I modified it with [the following code to download more than 1 file at a time](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/caption_downloader_converter.py).
 
-I then opened up all the text files in a software tool which I am developing with my dissertation chair (more details on this program in a few months). The program can output a list of "lexical bundles", or  expressions that recur in a collection of text files.  
+I then opened up all the text files in a software tool which I am developing with Viviana Cortes, my dissertation chair. The program can output a list of "lexical bundles", or expressions that recur in a collection of text files.  
 
 ### Analysis Summary 
 
