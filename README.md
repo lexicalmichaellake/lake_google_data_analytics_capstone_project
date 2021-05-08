@@ -51,6 +51,14 @@ The results are as follows:
 | Brown |  Formulaicity | 825 | 1.0% | 0.8%
 | SGDQ |  Formulaicity | 103 | 5.5% | 0.5
 
+The following boxplot illustrates these scores
+
+![Boxplot of mean formualicity scores in both corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/all_formualicity_boxplot.png "Boxplot of mean formualicity scores in both corpora").
+
+Thus, it is shown that Auto-generated Closed-Captions contain significantly more lexical bundles than did texts in the Brown Corpus.
+
+Now, returning to the 
+
 "8_1.txt
  Legend of Zelda The Minish Cap
 > "you don't know this at the time that you normally do this portal but it actually opens a portal to a much later area of the game which **you're not supposed to** have access to at this point this whole what later on in the run let us skip basically directly to the second-to-last engine"
@@ -74,14 +82,6 @@ Monster Boy in Cursed Kingdom
 > "so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending but there's probably a moment here"
 
 
-### Supporting visualizations and key findings
-
-![Boxplot of mean formualicity scores in both corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/all_formualicity_boxplot.png "Boxplot of mean formualicity scores in both corpora").
-
-
-
-![Boxplot of mean formualicity scores in LBs shared in corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/shared_formualicity_boxplot.png "Boxplot of mean formualicity scores in LBs shared in corpora").
-
 
 ### Future deliverables 
 
@@ -92,8 +92,9 @@ Cleaning up the transcription of [speedrun] that has the most formulaic sequence
 
 YouTube auto-generated closed captions are currently inadequate for precise transcriptions, but can serve as a practical, accurate source of data for learning formulaic phrases used amongst specific practitioners.
 
-This knowledge has applications for learning to speak like a:
-* cooking show host
-* makeup tutorial host
-* talk radio host
-* many others
+This knowledge has applications for learning to speak like several popular types of YouTube hosts, including those who have:
+* cooking shows
+* makeup tutorials
+* talk radio commentary
+
+If you have any suggestions or questions, please feel free to e-mail me.
