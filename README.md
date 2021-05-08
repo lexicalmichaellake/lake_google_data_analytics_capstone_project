@@ -26,7 +26,7 @@ This corpus of text files consists of auto-generated closed-caption files for th
 
 SGDQ 2019 is a telethon done in partnership with Doctors without Borders, an organization which provides medical cares to areas in need.
 
-To raise money, experts complete video games at world-record times, often with hundreds of thousands of viewers at a time. They often perform strategies that rely on perfect timing to manipulate the games' memory. Meanwhile, viewers donate. The event consistently raises several millions of dollars for Doctors without Borders.
+To raise money, experts complete video games at world-record times, often with hundreds of thousands of viewers at a time. These sessions are referred to as "speedruns".  Speedrunners, as the performers call themselves, often perform strategies that rely on perfect timing to manipulate the games' memory. Meanwhile, viewers donate. The event consistently raises several millions of dollars for Doctors without Borders.
 
 I have chosen the transcripts of the proceedings at this event as an understudied  genre of texts with which I am familiar and that exercises a notable public impact of good. The success of this analysis could determine the relevance of this research methodology for more high-stakes specialist language such as physical therapy sessions or psychological counseling.
 
@@ -57,36 +57,30 @@ The following boxplot illustrates these scores
 
 Thus, it is shown that Auto-generated Closed-Captions contain significantly more lexical bundles than did texts in the Brown Corpus.
 
-Now, returning to the 
+Now, returning to the main question, how to the practitioners in the videos talk?
 
-"8_1.txt
- Legend of Zelda The Minish Cap
-> "you don't know this at the time that you normally do this portal but it actually opens a portal to a much later area of the game which **you're not supposed to** have access to at this point this whole what later on in the run let us skip basically directly to the second-to-last engine"
+The following qualitative examples will show some of the kinds of situations that appear in broadcasts of SGDQ.
 
+This segment, for example, takes place during a speedrun of a game in the Legend of Zelda series by Nintendo. The commentator describes a situation in which a speedrunner manipulates a glitch in the game's code to skip an area in the game that may take a normal player an hour or two to complete. 
 
-"18_4.txt Fire Emblem Fates
+> "you don't know this at the time that you normally do this portal but it actually opens a portal to a much later area of the game which **you're not supposed to** have access to at this point this whole what later on in the run let us skip basically directly to the second-to-last engine" (8_1.txt)
 
-> "**that's never happened before** so while I do this chapter which should take like 30 seconds we can read off and not a few donations"
-"
+It is worth noting that YouTube transcribed the phrase "second-to-last dungeon" as "second-to-last engine", showing that the captions are imperfect in a range of specifics. However, they appear adequate so far when looking at formulaic sequences. 
 
+We notice another description of strategies performed by a speedrunner to complete the game more quickly in Super Mario Bros. 2, also by Nintendo. Lexical bundles appear in bold. 
 
-Super Mario Bros. 2
-4_1.txt
+> "so normally what you do there is climb to **the top of** that screen and bring a key **all the way** down so that **saves a lot of time**" (4_2.txt)
 
-> "nice so normally what you do there is climb to *the top of* that screen and bring a key **all the way** down so that **saves a lot of time**"
+Another example shows the importance of women as participants in the telethon. The commentator describes strategies used by one woman speedrunner completing Sega's Monster Boy and the Cursed Kingdom.
 
-4_2.txt
+> "so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending" (4_2.txt)
 
-Monster Boy in Cursed Kingdom
-
-> "so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending but there's probably a moment here"
-
+In all, it appears that the sequences detected within this method can be quite comprehensible. They may serve as adequate sources of input for phrases to teach experts in ESP courses.
 
 
 ### Future deliverables 
 
-Cleaning up the transcription of [speedrun] that has the most formulaic sequences and bolding those.
-
+This method should be applied to other genres of YouTube videos in English and other languages. 
 
 ### Your top high-level insights based on your analysis
 
