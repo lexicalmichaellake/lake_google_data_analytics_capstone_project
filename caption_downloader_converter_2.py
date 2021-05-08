@@ -17,7 +17,7 @@ url_list = ["Rql--9SOMC8", "zUXwqYxKkN0"]
 
 
 j = 0
-
+#many thanks to https://www.geeksforgeeks.org/python-downloading-captions-from-youtube/
 for i in url_list:
 	link = 'https://www.youtube.com/watch?v=' + str(i)
 	src = YouTube(link)
