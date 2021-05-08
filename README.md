@@ -51,6 +51,12 @@ I compared the frequencies of lexical bundles that occur in both the Brown Corpu
 
 5. Supporting visualizations and key findings
 
+![Boxplot of mean formualicity scores in both corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/all_formualicity_boxplot.png "Boxplot of mean formualicity scores in both corpora").
+
+
+
+![Boxplot of mean formualicity scores in LBs shared in corpora](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/shared_formualicity_boxplot.png "Boxplot of mean formualicity scores in LBs shared in corpora").
+
 
 6. Based on what you discover, a list of additional deliverables you think would be helpful to include for further exploration
 
