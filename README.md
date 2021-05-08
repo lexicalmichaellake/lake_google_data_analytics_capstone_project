@@ -1,7 +1,6 @@
-# lake_google_data_analytics_capstone_project
-My Capstone Project for the Google Data Analytics program at Coursera
-
 # Google Data Analytics Certificate Capstone Project
+
+My Capstone Project for the Google Data Analytics program at Coursera.org.
 
 ## The Adequacy of YouTube Auto-Generated Closed Captions as Data Sources for Formulaic Language Studies
 
@@ -15,34 +14,42 @@ Accordingly, the purpose of the present case study is to investigate the extent 
 
 ### Data sources used
 
-I used two corpora. 
+I used two text corpora for this analysis: the Brown Corpus as a representative of general English; and the SGDQ 2019 corpus, a collection of auto-generated Closed Caption Files from the Summer Games Done Quick 2019 telethon.
 
-Brown Corpus:
+#### I. Brown Corpus:
 
-Wikipedia: "The Brown University Standard Corpus of Present-Day American English (or just Brown Corpus) is an electronic collection of text samples of American English, the first major structured corpus of varied genres."
+The Brown University Standard Corpus of Present-Day American English is a series of transcribed text files in a variety of genres collected by researchers at Brown University. 
 
-SGDQ 2019:
+#### II. SGDQ 2019:
 
-Auto-generated closed-caption files for the Summer Games Done Quick 2019 telethon.
+This corpus of text files consists of auto-generated closed-caption files for the Summer Games Done Quick 2019 telethon.
 
-THis is a telethon done in partnership with Doctors without Borders, an organization which provides medical cares to areas in need.
+SGDQ 2019 is a telethon done in partnership with Doctors without Borders, an organization which provides medical cares to areas in need.
 
-TO raise money, experts complete video games at world-record times, often with hundreds of thousands of viewers at a time. They often perform strategies that rely on perfect timing to manipulate the games' memory. Meanwhile, viewers donate. The event consistently raises several millions of dollars for Doctors without Borders.
+To raise money, experts complete video games at world-record times, often with hundreds of thousands of viewers at a time. They often perform strategies that rely on perfect timing to manipulate the games' memory. Meanwhile, viewers donate. The event consistently raises several millions of dollars for Doctors without Borders.
 
-I have chosen this event as an understudied  genre of texts with whcih I am familiar and that exercises a notable public impact of good.
+I have chosen the transcripts of the proceedings at this event as an understudied  genre of texts with which I am familiar and that exercises a notable public impact of good. The success of this analysis could determine the relevance of this research methodology for more high-stakes specialist language such as physical therapy sessions or psychological counseling.
 
 
 ### Data cleaning & Manipulation
 
-To get the Brown Corpus, I downloaded from [URL]. I used "text separator character" to separate the text into individual text files. 
+To get the Brown Corpus, I downloaded the first version on [Robert Bley-Vroman's website](http://www.sls.hawaii.edu/bley-vroman/brown_corpus.html). I noticed that documents tented to change at each instance of a newline followed by a #. Thus, I used a terminal script to split the file into separate pieces. Doing so allows balanced measurements to be obtained from individual text files.
 
-To get the SGDQ2019 corpus, I obtained a list of URLs for every recording. I then found [program] on GeeksforGeeks. I modified it with the following code to download more than 1 file at a time.
+Here is the script:
+`csplit -z * /\n\n#/ '{*}'`
+
+To get the SGDQ2019 corpus, I obtained a list of URLs for every recording. I then found [some Python code that uses the pytube library](https://www.geeksforgeeks.org/python-downloading-captions-from-youtube/) on GeeksforGeeks. I modified it with [the following code to download more than 1 file at a time](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/caption_downloader_converter.py).
 
 I then opened up all the text files in a software tool which I am developing with my dissertation chair (more details on this program in a few months). The program can output a list of "lexical bundles", or  expressions that recur in a collection of text files.  
 
 ### Analysis Summary 
 
-I compared the frequencies of lexical bundles that occur in both the Brown Corpus and the SGDQ2019 Corpus. I ran a histogram inspection and found that the data were not normally distributed. Thus, the appropriate comparison test is a Wilcoxon Sign Ranked test since the data were not normally distributed.
+I compared the summed frequencies of lexical bundles that occur in both the Brown Corpus and the SGDQ2019 Corpus. I ran a histogram inspection and found that the data were not normally distributed. Thus, the appropriate comparison test is a Wilcoxon Sign Ranked test since the data were not normally distributed.
+The results are as follows: 
+|  Corpus | Variable | N |  Mean | SD |   
+| ------- | -------- | - | ----- | -- |
+| Brown |  Formulaicity | 825 | 1.0% | 0.8%
+| SGDQ |  Formulaicity | 103 | 5.5% | 0.5
 
 "8_1.txt
  Legend of Zelda The Minish Cap
@@ -90,8 +97,3 @@ This knowledge has applications for learning to speak like a:
 * makeup tutorial host
 * talk radio host
 * many others
-
-
-Sources:
-Python – Downloading captions from YouTube
-https://www.geeksforgeeks.org/python-downloading-captions-from-youtube/
