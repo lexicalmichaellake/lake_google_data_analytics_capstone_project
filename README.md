@@ -96,4 +96,4 @@ This knowledge has applications for learning to speak like several popular types
 * makeup tutorials
 * news & commentary
 
-If you have any suggestions or questions, please feel free to send me a message at admin_at_wmichaellake.net (<- replace the _at_ with an "@").
+If you have any suggestions or questions, please feel free to send me a message at admin_at_wmichaellake.net (<- replace the \_at\_ with an "@").
