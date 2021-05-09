@@ -75,7 +75,7 @@ Another example shows the importance of women as participants in the telethon. T
 
 > "so we got a few small puzzles going through here this is pretty straightforward for just a moment mostly **she's gonna** try and hit the torches out of order of what the game is intending" (4_2.txt)
 
-In all, it appears that the sequences detected within this method can be quite comprehensible. They may serve as adequate sources of input for phrases to teach experts in ESP courses.
+In all, it appears that the sequences detected within this method can be quite comprehensible. They may serve as adequate sources of input for phrases to teach future experts in ESP courses.
 
 
 ### Future deliverables 
