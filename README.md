@@ -44,7 +44,7 @@ I then opened up all the text files in a software tool which I am developing wit
 
 ### Analysis Summary 
 
-I compared the summed frequencies of lexical bundles that occur in both the Brown Corpus and the SGDQ2019 Corpus. I ran a histogram inspection and found that the data were not normally distributed. Thus, the appropriate comparison test is a Wilcoxon Sign Ranked test since the data were not normally distributed.
+I compared the summed frequencies of lexical bundles that occur in both the Brown Corpus and the SGDQ2019 Corpus. You can see the details of how I joined and subsetted the two dataframes [in this area of the GitHub repository](https://github.com/lexicalmichaellake/lake_google_data_analytics_capstone_project/blob/main/SGDQ2019%20and%20the%20Adequacy%20of%20Youtube%20Auto-CC.R). I ran a histogram inspection and found that the data were not normally distributed. Thus, the appropriate comparison test is a Wilcoxon Sign Ranked test since the data were not normally distributed.
 The results are as follows: 
 |  Corpus | Variable | N |  Mean | SD |   
 | ------- | -------- | - | ----- | -- |
