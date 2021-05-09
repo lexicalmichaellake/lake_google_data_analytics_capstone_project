@@ -89,6 +89,6 @@ YouTube auto-generated closed captions are currently inadequate for precise tran
 This knowledge has applications for learning to speak like several popular types of YouTube hosts, including those who have:
 * cooking shows
 * makeup tutorials
-* talk radio commentary
+* news & commentary
 
-If you have any suggestions or questions, please feel free to e-mail me.
+If you have any suggestions or questions, please feel free to send me a message.
